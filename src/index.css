@@ -3,3 +3,79 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+/* Admin page */
+.admin-main {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+  align-content: stretch;
+  height: 600px;
+}
+
+.admin-input-div {
+  width: 400px;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #222;
+	border-radius: 4px;
+	background-color: rgb(242, 240, 239);
+}
+
+.input-data-field {
+  width: 100%;
+  font: 15px arial, sans-serif;
+  padding: 12px 20px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.submit-btn {
+  /* width: 100%; */
+  font: 15px arial, sans-serif;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-info-container {
+  text-align: center;
+}
+
+.submit-btns-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* navigation */
+
+.navigation {
+  font-size: 24px;
+  padding: 25px 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #020402;
+  color: #C6B38E;
+}
+
+.link-wrap {
+  display: flex;
+}
+
+.links {
+  margin-right: 50px;
+  text-decoration: none;
+  color: #C6B38E;
+}
+
+.title {
+  text-align: center;
+}

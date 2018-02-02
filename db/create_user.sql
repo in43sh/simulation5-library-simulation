@@ -1,0 +1,1 @@
+INSERT INTO users_books (username, password) values ($1, $2);

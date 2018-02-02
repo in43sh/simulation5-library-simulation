@@ -4,6 +4,7 @@ const initialState = {
 
 const LOGIN = 'LOGIN';
 
+// competency 43E
 export const login = (user) => {
   return {
     type: LOGIN,
@@ -11,11 +12,11 @@ export const login = (user) => {
   };
 };
 
+// competency 43D
 const reducer = (state = initialState, action) => {
   switch (action.type) {
-    case value:
-      case LOGIN:
-        return { ...state, user: action.payload };
+    case LOGIN:
+      return { ...state, user: action.payload };
   
     default: return state;
   }

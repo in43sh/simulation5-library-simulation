@@ -1,0 +1,1 @@
+DELETE FROM users_books WHERE id = $1;
